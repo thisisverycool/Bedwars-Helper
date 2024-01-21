@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bwutils",
+  "name": "Bedwars Utils",
+  "description": "yes.",
+  "version": "b1",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["twenty48"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
