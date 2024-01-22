@@ -86,11 +86,7 @@ public class Listener implements ChatUtils {
 							Utils.addChatMessage(prefix + en.getDisplayNameString() + " has a " + dark_red + "Bow.");
 							Utils.playSound();
 						}
-					}
-					if (heldItem instanceof ItemBlock && Utils.hasNoArmor(en)) {
-						Utils.addChatMessage(prefix + en.getName() + " does not have full armor. ");
-					}
-					
+					}					
 				}
 				if (en.getActivePotionEffect(Potion.invisibility) != null && Config.INVISIBLE) {
 					if (!invis.contains(en)) {
